@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <!-- Project logo -->
 <br />
 <div align="center">
@@ -18,3 +20,33 @@
     <a href="https://github.com/nora-papp/github_practice_project/pulls">Pull requests</a>
   </p>
 </div>
+
+<!-- Table of contents -->
+
+## Tartalomjegyzék
+
+  <ul>
+    <li>
+      <p>A csapat tagjai:</p>
+      <details>
+        <summary>Papp Nóra</summary>
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/index.html">Főoldal</a>
+            <br />
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/personal_pn.html">Papp Nóra oldala</a>
+      </details>
+      <details>
+        <summary>Rohonczi Kevin</summary>
+            <a href="">DHCP</a>
+            <br />
+            <a href="">Rohonczi Kevin oldala</a>
+      </details>
+      <details>
+        <summary>Oszlács Bence</summary>
+            <a href="">OSI modell</a>
+            <br />
+            <a href="">Oszlács Bence oldala</a>
+      </details>
+    </li>
+   </ul>
+
+##
