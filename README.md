@@ -12,7 +12,7 @@
   <p align="center">
     BMSZC Neumann János Informatikai Technikum 2/14.A csoport GitHub gyakorló projekt weboldala.
     <br />
-    <a href="https://github.com/nora-papp/github_practice_project"><strong>Source code »</strong></a>
+    <a href="https://github.com/nora-papp/github_practice_project?search=1"><strong>Files »</strong></a>
     <br />
     <br />
    <a href="https://github.com/nora-papp/github_practice_project/commits/main">Commits</a>
