@@ -1,5 +1,3 @@
-<a name="readme-top"></a>
-
 <!-- Project logo -->
 <br />
 <div align="center">
