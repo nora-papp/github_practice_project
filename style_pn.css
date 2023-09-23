@@ -1,0 +1,8 @@
+/*Papp Nóra bemutatkozó oldal CSS*/
+
+body {
+    background-image: url('https://i.imgur.com/HpWzEUj.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
