@@ -28,7 +28,10 @@ h1 {
     padding-left: 80px;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.069);
-    text-align: justify;
+}
+
+#pic {
+    width: 350px;
 }
 
 #index_link {
