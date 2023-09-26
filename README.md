@@ -48,9 +48,9 @@
       </details>
       <details>
         <summary>Oszlács Bence</summary>
-            <a href="">OSI modell</a>
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/osi_model.html">OSI modell</a>
              ·
-             <a href="">CSS</a>
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_ob.css">CSS</a>
             <br />
             <a href="https://github.com/nora-papp/github_practice_project/blob/main/personal_ob.html">Oszlács Bence oldala</a>
              ·
