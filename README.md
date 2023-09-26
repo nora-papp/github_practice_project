@@ -29,20 +29,32 @@
       <details>
         <summary>Papp Nóra</summary>
             <a href="https://github.com/nora-papp/github_practice_project/blob/main/index.html">Főoldal</a>
+             ·
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_index.css">CSS</a>
             <br />
             <a href="https://github.com/nora-papp/github_practice_project/blob/main/personal_pn.html">Papp Nóra oldala</a>
+             ·
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_pn.css">CSS</a>
       </details>
       <details>
         <summary>Rohonczi Kevin</summary>
             <a href="">DHCP</a>
+             ·
+             <a href="">CSS</a>
             <br />
             <a href="">Rohonczi Kevin oldala</a>
+             ·
+             <a href="">CSS</a>
       </details>
       <details>
         <summary>Oszlács Bence</summary>
             <a href="">OSI modell</a>
+             ·
+             <a href="">CSS</a>
             <br />
-            <a href="">Oszlács Bence oldala</a>
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/personal_ob.html">Oszlács Bence oldala</a>
+             ·
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_ob.css">CSS</a>
       </details>
     </li>
    </ul>
