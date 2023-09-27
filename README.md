@@ -38,13 +38,13 @@
       </details>
       <details>
         <summary>Rohonczi Kevin</summary>
-            <a href="">DHCP</a>
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/dhcp.html">DHCP</a>
              ·
-             <a href="">CSS</a>
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_dhcp.css">CSS</a>
             <br />
-            <a href="">Rohonczi Kevin oldala</a>
+            <a href="https://github.com/nora-papp/github_practice_project/blob/main/personal_rk.html">Rohonczi Kevin oldala</a>
              ·
-             <a href="">CSS</a>
+             <a href="https://github.com/nora-papp/github_practice_project/blob/main/style_rk.css">CSS</a>
       </details>
       <details>
         <summary>Oszlács Bence</summary>
