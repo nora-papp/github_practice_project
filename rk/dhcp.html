@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DHCP</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style_dhcp.css" />
-</head>
-<body>
-    <h1>Dynamic Host Configuration Protocol</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DHCP</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style_dhcp.css" />
+	</head>
+	<body>
+		<h1>Dynamic Host Configuration Protocol</h1>
 
-    <div id="main_div">
+		<div id="main_div">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-8">
+						<p>
+							A dinamikus állomáskonfiguráló protokoll szolgáltatás a hálózaton
+							lévő eszközök számára biztosítja, hogy egy DHCP-szervertől
+							IP-címeket és egyéb információkat kaphassanak. A szolgáltatás
+							automatizálja az IP-címek, alhálózati maszkok, átjárók és egyéb
+							IP-hálózati paraméterek kiosztását. Amint az ábra mutatja, amikor
+							egy DHCP-re konfigurált eszköz elindul vagy csatlakozik a
+							hálózatra, a kliens egy szórásos DHCP-felfedező (DHCPDISCOVER)
+							üzenetet küld szét, hogy egy a hálózaton elérhető DHCP-szervert
+							találjon. A DHCP-szerver egy DHCP-ajánlás (DHCPOFFER) üzenettel
+							válaszol, amely a kliensnek felajánl egy címbérletet. Az ajánlat
+							tartalmazza a kiosztott IP-címet és alhálózati maszkot, a
+							DNS-szerver IP-címét, valamint az alapértelmezett átjáró IP-címét.
+							Az ajánlott címbérlet tartalmazza még bérlet időtartamát is. A
+							kliens több DHCPOFFER üzenetet is kaphat, amennyiben egynél több
+							DHCP-szerver is van a helyi hálózaton. Ezért választania kell
+							közülük, majd a kliens egy DHCP-igénylés (DHCPREQUEST) üzenetet
+							küld az elfogadott bérleti ajánlatra az azt kibocsátó szervernek.
+							Egy kliens dönthet úgy is, hogy egy olyan címet kér, amelyet a
+							szerver egyszer korábban már kiosztott neki. Abban az esetben, ha
+							a kliens által megigényelt vagy a szerver által kiajánlott IP-cím
+							továbbra is rendelkezésre áll, a szerver egy DHCP-nyugta (DHCPACK)
+							üzenettel válaszol, amely visszaigazolja a kliensnek a bérlet
+							véglegesítését. Ha az ajánlat már nem érvényes egy esetleges
+							időtúllépés miatt, vagy mert egy másik kliens már megkapta a
+							címbérletet, akkor a kiválasztott szerver egy negatív DHCP-nyugta
+							(DHCPNAK) üzenettel válaszol. <br />Forrás: netacad.com
+						</p>
+					</div>
 
-        <div class="container-fluid">
-            <div class="row">
+					<div class="col-lg-4">
+						<img
+							src="../resources/dhcp_process_explained.jpg"
+							title="DHCP process explained"
+							alt="DHCP process explained"
+							class="img-fluid"
+						/>
+					</div>
+				</div>
+				<br />
+			</div>
 
-                <div class="col-lg-8">
-                    <p>A dinamikus állomáskonfiguráló protokoll szolgáltatás a hálózaton lévő eszközök számára biztosítja, hogy egy DHCP-szervertől IP-címeket és egyéb információkat kaphassanak. A szolgáltatás automatizálja az IP-címek, alhálózati maszkok, átjárók és egyéb IP-hálózati paraméterek kiosztását.  Amint az ábra mutatja, amikor egy DHCP-re konfigurált eszköz elindul vagy csatlakozik a hálózatra, a kliens egy szórásos DHCP-felfedező (DHCPDISCOVER) üzenetet küld szét, hogy egy a hálózaton elérhető DHCP-szervert találjon. A DHCP-szerver egy DHCP-ajánlás (DHCPOFFER) üzenettel válaszol, amely a kliensnek felajánl egy címbérletet. Az ajánlat tartalmazza a kiosztott IP-címet és alhálózati maszkot, a DNS-szerver IP-címét, valamint az alapértelmezett átjáró IP-címét. Az ajánlott címbérlet tartalmazza még bérlet időtartamát is. A kliens több DHCPOFFER üzenetet is kaphat, amennyiben egynél több DHCP-szerver is van a helyi hálózaton. Ezért választania kell közülük, majd a kliens egy DHCP-igénylés (DHCPREQUEST) üzenetet küld az elfogadott bérleti ajánlatra az azt kibocsátó szervernek. Egy kliens dönthet úgy is, hogy egy olyan címet kér, amelyet a szerver egyszer korábban már kiosztott neki. Abban az esetben, ha a kliens által megigényelt vagy a szerver által kiajánlott IP-cím továbbra is rendelkezésre áll, a szerver egy DHCP-nyugta (DHCPACK) üzenettel válaszol, amely visszaigazolja a kliensnek a bérlet véglegesítését. Ha az ajánlat már nem érvényes egy esetleges időtúllépés miatt, vagy mert egy másik kliens már megkapta a címbérletet, akkor a kiválasztott szerver egy negatív DHCP-nyugta (DHCPNAK) üzenettel válaszol. <br>Forrás: netacad.com</p>
-                    
-                </div>
-
-                <div class="col-lg-4">
-                   
-                    <img
-                        src="resources/dhcp_process_explained.jpg"
-                        title="DHCP process explained"
-                        alt="DHCP process explained"
-                        class="img-fluid"
-                    />
-                </div>
-            </div>
-            <br />
-        </div>
-
-        <a href="index.html" id="index_link">Főoldal</a>
-    </div>
-    
-</body>
+			<a href="../pn/index.html" id="index_link">Főoldal</a>
+		</div>
+	</body>
 </html>

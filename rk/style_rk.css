@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-image: url('resources/rk_background.jpg');
+    background-image: url('../resources/rk_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
